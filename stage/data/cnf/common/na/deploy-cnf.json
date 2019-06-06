@@ -1,0 +1,16 @@
+{
+  "def": {
+    "remoteDir": "<%- remoteDir %>",
+    "dockerComposeYml": "<%- deployDir %>/docker-compose.yml",
+    "startCommand": "cd <%- remoteDir %> && docker-compose down && docker-compose build --force-rm && docker-compose up -d && docker system prune -f"
+  },
+
+  "stageDir": "stage",
+
+  "hooks": {
+    "pre": [
+      "iDYC --tplPath ./dcy.tpl --config ./dcy-cnf.json --tarDir <%- deployDir %> --project <%- project %> --NAPort <%- NAPort %>"
+    ],
+    "afterDeployRemoteCmds": []
+  }
+}

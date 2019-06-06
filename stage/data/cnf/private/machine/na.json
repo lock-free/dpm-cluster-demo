@@ -1,0 +1,18 @@
+{
+  "sshConfigs": {
+    "127.0.0.1": {
+      "options": {
+        "host": "127.0.0.1",
+        "port": 22,
+        "username": "test",
+        "privateKeyFile": "/data/cnf/private/ssh/id_rsa"
+      }
+    }
+  },
+
+  "instances": {
+    "staging": [{
+      "host": "127.0.0.1"
+    }]
+  }
+}

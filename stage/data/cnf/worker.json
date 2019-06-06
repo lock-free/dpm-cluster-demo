@@ -1,0 +1,10 @@
+{
+  "WorkerDeployCnfPath": "/data/cnf/common/worker/deploy-cnf.json",
+  "WorkerMachineCnfPath": "/data/cnf/private/machine/worker.json",
+  "Workers": [{
+    "ServiceType": "httpna_service"
+  }],
+  "Machines": [{
+    "Host": "127.0.0.1"
+  }]
+}

@@ -1,0 +1,8 @@
+{
+  "env": {
+    "staging": {
+      "name": "docker-compose.yml",
+      "vars": {}
+    }
+  }
+}

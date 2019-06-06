@@ -1,0 +1,8 @@
+{
+  "RemoteRoot": "/home/user/apps/test/apps",
+  "OnlineType": "staging",
+  "NAConfPath": "/data/cnf/na.json",
+  "WorkerConfPath": "/data/cnf/worker.json",
+  "TargetDir": "/data/target",
+  "SrcDir": "/data/src"
+}

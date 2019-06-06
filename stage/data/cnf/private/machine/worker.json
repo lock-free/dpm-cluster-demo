@@ -1,0 +1,18 @@
+{
+  "sshConfigs": {
+    "159.65.133.211": {
+      "options": {
+        "host": "159.65.133.211",
+        "port": 22,
+        "username": "yuer",
+        "privateKeyFile": "/data/cnf/private/ssh/id_rsa"
+      }
+    }
+  },
+
+  "instances": {
+    "staging": [{
+      "host": "159.65.133.211"
+    }]
+  }
+}

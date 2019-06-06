@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dpm_service:
+    build: ./stage
+    volumes:
+      - ./stage/data:/data
+    network_mode: host

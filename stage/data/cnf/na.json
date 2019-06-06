@@ -1,0 +1,11 @@
+{
+  "NADeployCnfPath": "/data/cnf/common/na/deploy-cnf.json",
+  "NAMachineCnfPath": "/data/cnf/private/machine/na.json",
+  "NAs": [{
+    "Host": "127.0.0.1",
+    "Port": 8777
+  }, {
+    "Host": "127.0.0.1",
+    "Port": 8776
+  }]
+}
