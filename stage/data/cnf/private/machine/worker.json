@@ -1,10 +1,10 @@
 {
   "sshConfigs": {
-    "159.65.133.211": {
+    "127.0.0.1": {
       "options": {
-        "host": "159.65.133.211",
+        "host": "127.0.0.1",
         "port": 22,
-        "username": "yuer",
+        "username": "test",
         "privateKeyFile": "/data/cnf/private/ssh/id_rsa"
       }
     }
@@ -12,7 +12,7 @@
 
   "instances": {
     "staging": [{
-      "host": "159.65.133.211"
+      "host": "127.0.0.1"
     }]
   }
 }
