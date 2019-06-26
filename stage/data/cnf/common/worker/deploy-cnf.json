@@ -9,7 +9,7 @@
 
   "hooks": {
     "pre": [
-      "iDYC --tplPath ./dcy.tpl --config ./dcy-cnf.json --tarDir <%- deployDir %> --project <%- project %> --NAs \"<%- NAs %>\""
+      "iDYC --tplPath <%- dcyTplPath %> --config <%- dcyTplConfigPath %> --tarDir <%- deployDir %> --project <%- project %> --NAs \"<%- NAs %>\""
     ],
     "afterDeployRemoteCmds": []
   }
