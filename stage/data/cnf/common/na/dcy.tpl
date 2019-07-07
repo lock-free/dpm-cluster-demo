@@ -9,4 +9,3 @@ services:
           - '<%- NAPort %>:<%- NAPort %>'
         volumes:
           - ./stage/data:/data
-        network_mode: host

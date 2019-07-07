@@ -5,5 +5,8 @@ services:
         build: ./stage
         volumes:
           - ./stage/data:/data
+        ports:
+          - '<%- port %>:<%- port %>'
         environment:
           - NAs=<%- NAs %>
+          - PORT=<%- port %>
