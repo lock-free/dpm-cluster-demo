@@ -1,6 +1,6 @@
 FROM alpine:3.7
 ADD bin /bin
-ADD data /data
+# ADD data /data
 RUN apk add --update make
 RUN apk add --no-cache ca-certificates openssl
 RUN apk add --update nodejs nodejs-npm
