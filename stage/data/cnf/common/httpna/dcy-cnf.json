@@ -2,9 +2,7 @@
   "env": {
     "staging": {
       "name": "docker-compose.yml",
-      "vars": {
-        "port": 8080
-      }
+      "vars": {}
     }
   }
 }

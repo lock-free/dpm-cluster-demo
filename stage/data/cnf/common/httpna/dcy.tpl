@@ -9,4 +9,3 @@ services:
           - '<%- port %>:<%- port %>'
         environment:
           - NAs=<%- NAs %>
-          - PORT=<%- port %>
