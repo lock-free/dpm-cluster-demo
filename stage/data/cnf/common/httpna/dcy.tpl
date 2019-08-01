@@ -5,7 +5,6 @@ services:
         build: ./stage
         volumes:
           - ./stage/data:/data
-        ports:
-          - '<%- port %>:<%- port %>'
         environment:
           - NAs=<%- NAs %>
+        network_mode: host
