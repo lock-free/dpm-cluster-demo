@@ -7,3 +7,4 @@ services:
           - ./stage/data:/data
         environment:
           - NAs=<%- NAs %>
+        network_mode: host
