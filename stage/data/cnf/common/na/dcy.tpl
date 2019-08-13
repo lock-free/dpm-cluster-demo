@@ -2,6 +2,7 @@ version: '3'
 
 services:
     <%- project %>:
+        container_name: <%- project %>
         build: ./stage
         environment:
           - PORT=<%- NAPort %>
