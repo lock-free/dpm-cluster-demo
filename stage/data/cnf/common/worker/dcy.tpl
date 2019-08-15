@@ -4,6 +4,7 @@ services:
     <%- project %>:
         container_name: <%- project %>
         build: ./stage
+        restart: always
         volumes:
           - ./stage/data:/data
         environment:
