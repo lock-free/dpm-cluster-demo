@@ -2,7 +2,7 @@
   "def": {
     "remoteDir": "<%- remoteDir %>",
     "dockerComposeYml": "<%- deployDir %>/docker-compose.yml",
-    "startCommand": "cd <%- remoteDir %> && docker-compose down && docker-compose build --force-rm && docker-compose up -d && docker system prune -f"
+    "startCommand": "cd <%- remoteDir %> && sudo chown daemon:daemon ./stage/data && docker-compose down && docker-compose build --force-rm && docker-compose up -d && docker system prune -f"
   },
 
   "stageDir": "stage",
